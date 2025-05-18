@@ -18,4 +18,24 @@
                 android:resource="@xml/accessibility_service_config" />
         </service>
     </application>
+
+<!--
+xml/accessibility_service_config.xml
+  <accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged"
+    android:accessibilityFeedbackType="feedbackSpoken"
+    android:notificationTimeout="100"
+    android:canPerformGestures="true"
+    android:canRetrieveWindowContent="true"
+    android:canRequestTouchExplorationMode="false"
+    android:settingsActivity="true"
+    android:accessibilityFlags="flagDefault|flagIncludeNotImportantViews"
+    android:description="@string/accessibility_service_description" />
+
+values/strings.xml
+    <resources>
+        <string name="accessibility_service_description">This is a accessibility service for AutoSDK.</string>
+    </resources>
+-->
 </manifest>
