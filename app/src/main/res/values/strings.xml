@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AutoSDK</string>
+    <string name="accessibility_service_description">This is a accessibility service for AutoSDK.</string>
+</resources>
