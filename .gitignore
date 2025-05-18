@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+/asdk/src/main/java/io/github/zimoyin/asdk/ee
+/gradle.properties
